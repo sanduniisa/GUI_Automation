@@ -1,0 +1,18 @@
+2024-09-02 09:58:19 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (25400debaec930722201c231c20c1916)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 09:58:19 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 09:58:33 [org.testing.utilities.LogCapture] (main:) [TC1] Page title verification passed. Actual title: YouTube
+2024-09-02 09:58:33 [org.testing.utilities.LogCapture] (main:) [TC1] Page URL verification passed. Actual URL: https://www.youtube.com/
+2024-09-02 09:58:34 [org.testing.utilities.LogCapture] (main:) [TC1] logged Successfully
+2024-09-02 09:58:43 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 ------------------------------------passed Successfully
+2024-09-02 09:58:53 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (8e50217726a4b292b78109248fe911cb)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 09:58:53 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 09:59:16 [org.testing.utilities.LogCapture] (main:) [TC2] Page title verification passed. Actual title: YouTube
+2024-09-02 09:59:16 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 --------------------------passed Successfully
+2024-09-02 09:59:25 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (639f0a1b1cde06e56dcf41798e6166c6)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 09:59:25 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 09:59:48 [org.testing.utilities.LogCapture] (main:) [TC3] Page title verification passed. Actual title: YouTube
+2024-09-02 09:59:48 [org.testing.utilities.LogCapture] (main:) [TC3] Test Case 3 --------------------------------passed Successfully
+2024-09-02 09:59:57 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (418d66647a10426480a5b1d4f4a868fa)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 09:59:57 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 10:00:19 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
+2024-09-02 10:00:25 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully

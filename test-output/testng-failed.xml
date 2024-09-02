@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Command line test 28a2ebfb-578f-4f4a-a49c-495d0a7d6f71(failed)" preserve-order="true">
+    <classes>
+      <class name="org.testing.testScripts.TC4">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="testcase4"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC2">
+        <methods>
+          <include name="testcase2"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC3">
+        <methods>
+          <include name="testcase3"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC1">
+        <methods>
+          <include name="testcase1"/>
+          <include name="init"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

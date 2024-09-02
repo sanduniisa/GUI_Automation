@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T09:58:09Z" name="Suite1" finished-at="2024-09-02T10:00:28Z" duration-ms="138107">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T09:58:09Z" name="Command line test 73cc36d9-daa6-4cef-b6be-2250db2ca1c1" finished-at="2024-09-02T10:00:28Z" duration-ms="138107">
+      <class name="org.testing.testScripts.TC1">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.testing.testScripts.TC1@694e1548]" started-at="2024-09-02T09:58:09Z" name="init" finished-at="2024-09-02T09:58:17Z" duration-ms="7800" status="PASS">
+        </test-method>
+        <test-method signature="testcase1()[pri:0, instance:org.testing.testScripts.TC1@694e1548]" started-at="2024-09-02T09:58:17Z" name="testcase1" finished-at="2024-09-02T09:58:44Z" duration-ms="26316" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="closure()[pri:0, instance:org.testing.testScripts.TC1@694e1548]" started-at="2024-09-02T09:58:44Z" name="closure" finished-at="2024-09-02T09:58:46Z" duration-ms="2139" status="PASS">
+        </test-method>
+      </class>
+      <class name="org.testing.testScripts.TC2">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.testing.testScripts.TC2@614ddd49]" started-at="2024-09-02T09:58:46Z" name="init" finished-at="2024-09-02T09:58:51Z" duration-ms="4963" status="PASS">
+        </test-method>
+        <test-method signature="testcase2()[pri:0, instance:org.testing.testScripts.TC2@614ddd49]" started-at="2024-09-02T09:58:51Z" name="testcase2" finished-at="2024-09-02T09:59:16Z" duration-ms="24973" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="closure()[pri:0, instance:org.testing.testScripts.TC2@614ddd49]" started-at="2024-09-02T09:59:16Z" name="closure" finished-at="2024-09-02T09:59:18Z" duration-ms="2134" status="PASS">
+        </test-method>
+      </class>
+      <class name="org.testing.testScripts.TC3">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.testing.testScripts.TC3@1f554b06]" started-at="2024-09-02T09:59:18Z" name="init" finished-at="2024-09-02T09:59:23Z" duration-ms="5374" status="PASS">
+        </test-method>
+        <test-method signature="testcase3()[pri:0, instance:org.testing.testScripts.TC3@1f554b06]" started-at="2024-09-02T09:59:23Z" name="testcase3" finished-at="2024-09-02T09:59:48Z" duration-ms="24767" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="closure()[pri:0, instance:org.testing.testScripts.TC3@1f554b06]" started-at="2024-09-02T09:59:48Z" name="closure" finished-at="2024-09-02T09:59:50Z" duration-ms="2123" status="PASS">
+        </test-method>
+      </class>
+      <class name="org.testing.testScripts.TC4">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:org.testing.testScripts.TC4@76707e36]" started-at="2024-09-02T09:58:09Z" name="setupSuite" finished-at="2024-09-02T09:58:09Z" duration-ms="65" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="init()[pri:0, instance:org.testing.testScripts.TC4@76707e36]" started-at="2024-09-02T09:59:50Z" name="init" finished-at="2024-09-02T09:59:55Z" duration-ms="4911" status="PASS">
+        </test-method>
+        <test-method signature="testcase4()[pri:0, instance:org.testing.testScripts.TC4@76707e36]" started-at="2024-09-02T09:59:55Z" name="testcase4" finished-at="2024-09-02T10:00:25Z" duration-ms="30464" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="closure()[pri:0, instance:org.testing.testScripts.TC4@76707e36]" started-at="2024-09-02T10:00:25Z" name="closure" finished-at="2024-09-02T10:00:28Z" duration-ms="2136" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
