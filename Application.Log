@@ -146,3 +146,147 @@ Session ID: 749914dc63a8ee080dd779ca1d028c8b
 2024-09-02 11:05:15 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
 2024-09-02 11:05:47 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (f975e7d7e11b8c359e8f495b881079f6)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
 2024-09-02 11:05:47 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:11:37 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (4480069b43a278d813b0045a8d010416)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:11:37 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:11:50 [org.testing.utilities.LogCapture] (main:) [TC1] Page title verification passed. Actual title: YouTube
+2024-09-02 11:11:50 [org.testing.utilities.LogCapture] (main:) [TC1] Page URL verification passed. Actual URL: https://www.youtube.com/
+2024-09-02 11:11:51 [org.testing.utilities.LogCapture] (main:) [TC1] logged Successfully
+2024-09-02 11:12:00 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 ------------------------------------passed Successfully
+2024-09-02 11:12:12 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (95bdc5a00d1f72dbf42a9fbd74176164)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:12:12 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:12:17 [org.testing.utilities.LogCapture] (main:) [TC2] Reason for failure : stale element reference: stale element not found in the current frame
+  (Session info: chrome=128.0.6613.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95bdc5a00d1f72dbf42a9fbd74176164, sendKeysToElement {id=f.F6A9A3F7E8D17D2AF639B8166D73228F.d.483F9213877B3C2F553C62CA20665CDB.e.17, value=[Ljava.lang.CharSequence;@4c36250e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59718/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (95bdc5a00d1f72dbf42a9fbd74176164)] -> xpath: //input[@type='password']]
+Session ID: 95bdc5a00d1f72dbf42a9fbd74176164
+2024-09-02 11:12:17 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 failed due to : stale element reference: stale element not found in the current frame
+  (Session info: chrome=128.0.6613.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95bdc5a00d1f72dbf42a9fbd74176164, sendKeysToElement {id=f.F6A9A3F7E8D17D2AF639B8166D73228F.d.483F9213877B3C2F553C62CA20665CDB.e.17, value=[Ljava.lang.CharSequence;@4c36250e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59718/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (95bdc5a00d1f72dbf42a9fbd74176164)] -> xpath: //input[@type='password']]
+Session ID: 95bdc5a00d1f72dbf42a9fbd74176164
+2024-09-02 11:12:27 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (6204b0337198760f84588a689be35923)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:12:27 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:12:32 [org.testing.utilities.LogCapture] (main:) [TC3] Reason for failure : stale element reference: stale element not found in the current frame
+  (Session info: chrome=128.0.6613.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6204b0337198760f84588a689be35923, sendKeysToElement {id=f.3AB7A15E0EC8DDE7CDC1A38445AAEB50.d.5D416041DE08FF73FFC7782D8388E3F5.e.17, value=[Ljava.lang.CharSequence;@1827a871}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59753/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6204b0337198760f84588a689be35923)] -> xpath: //input[@type='password']]
+Session ID: 6204b0337198760f84588a689be35923
+2024-09-02 11:12:32 [org.testing.utilities.LogCapture] (main:) [TC3] Test Case 3 failed due to : stale element reference: stale element not found in the current frame
+  (Session info: chrome=128.0.6613.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6204b0337198760f84588a689be35923, sendKeysToElement {id=f.3AB7A15E0EC8DDE7CDC1A38445AAEB50.d.5D416041DE08FF73FFC7782D8388E3F5.e.17, value=[Ljava.lang.CharSequence;@1827a871}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59753/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6204b0337198760f84588a689be35923)] -> xpath: //input[@type='password']]
+Session ID: 6204b0337198760f84588a689be35923
+2024-09-02 11:12:43 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (8b845a73ef053c8523a3aebfc1d53671)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:12:43 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:13:07 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
+2024-09-02 11:13:13 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully
+2024-09-02 11:13:23 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (50c1e6b653e96dc3b16c993f3b9db60a)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:13:23 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:13:39 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (814e1a36ac39a8bbe0080e87b2c06157)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:13:39 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:14:17 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (68fc4e6c94e9cf90c3b9c2ab91e6f5f1)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:14:17 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:14:32 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (093d993bab0d4b99e92f2c88e85c9b62)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:14:32 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:18:30 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (f7e971942032ab22f8ecb6702bfcddc2)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:18:30 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:18:35 [org.testing.utilities.LogCapture] (main:) [TC1] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7e971942032ab22f8ecb6702bfcddc2, sendKeysToElement {value=[Ljava.lang.CharSequence;@50fe837a, id=f.810EAD5BCD682E2EBDF47197DD4410FC.d.2A478F827EA10A31C546EC6A64667791.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60098/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (f7e971942032ab22f8ecb6702bfcddc2)] -> xpath: //input[@type='password']]
+Session ID: f7e971942032ab22f8ecb6702bfcddc2
+2024-09-02 11:18:35 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7e971942032ab22f8ecb6702bfcddc2, sendKeysToElement {value=[Ljava.lang.CharSequence;@50fe837a, id=f.810EAD5BCD682E2EBDF47197DD4410FC.d.2A478F827EA10A31C546EC6A64667791.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60098/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (f7e971942032ab22f8ecb6702bfcddc2)] -> xpath: //input[@type='password']]
+Session ID: f7e971942032ab22f8ecb6702bfcddc2
+2024-09-02 11:18:45 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (2ce32e268bfad4115c290577ea920f20)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:18:45 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:19:09 [org.testing.utilities.LogCapture] (main:) [TC2] Page title verification passed. Actual title: YouTube
+2024-09-02 11:19:09 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 --------------------------passed Successfully
+2024-09-02 11:19:18 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (2bf1b295dfcc1aae932396722e0c024d)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:19:18 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:19:41 [org.testing.utilities.LogCapture] (main:) [TC3] Page title verification passed. Actual title: YouTube
+2024-09-02 11:19:41 [org.testing.utilities.LogCapture] (main:) [TC3] Test Case 3 --------------------------------passed Successfully
+2024-09-02 11:19:50 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (0ec84dba36269a8d5e2769c649e2097d)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:19:50 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:20:12 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
+2024-09-02 11:20:18 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully
+2024-09-02 11:20:28 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (315203d562ce75a83c723855b3c5015b)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:20:28 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:20:42 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (f16e15565b11328efae463b87b798459)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:20:42 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:21:20 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (4f02150156b44a62104e76f450e5ba58)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:21:20 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:21:53 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (ef818f6ceb441c810b728ba4ebdd4857)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:21:53 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:26:34 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (70b336b3861e69b3cdbd930fcadd1499)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:26:34 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:26:47 [org.testing.utilities.LogCapture] (main:) [TC1] Page title verification passed. Actual title: YouTube
+2024-09-02 11:26:47 [org.testing.utilities.LogCapture] (main:) [TC1] Page URL verification passed. Actual URL: https://www.youtube.com/
+2024-09-02 11:26:48 [org.testing.utilities.LogCapture] (main:) [TC1] logged Successfully
+2024-09-02 11:26:57 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 ------------------------------------passed Successfully
+2024-09-02 11:27:07 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (2f368a1af9932431ba3cf19dd2d2f430)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:27:07 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:27:12 [org.testing.utilities.LogCapture] (main:) [TC2] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f368a1af9932431ba3cf19dd2d2f430, sendKeysToElement {id=f.8F57A14145CD0CFEB29395921FAC5B41.d.57DE62041BCFA31D2325A38DE4B2D417.e.17, value=[Ljava.lang.CharSequence;@7ef2d7a6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60647/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2f368a1af9932431ba3cf19dd2d2f430)] -> xpath: //input[@type='password']]
+Session ID: 2f368a1af9932431ba3cf19dd2d2f430
+2024-09-02 11:27:12 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f368a1af9932431ba3cf19dd2d2f430, sendKeysToElement {id=f.8F57A14145CD0CFEB29395921FAC5B41.d.57DE62041BCFA31D2325A38DE4B2D417.e.17, value=[Ljava.lang.CharSequence;@7ef2d7a6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60647/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2f368a1af9932431ba3cf19dd2d2f430)] -> xpath: //input[@type='password']]
+Session ID: 2f368a1af9932431ba3cf19dd2d2f430
+2024-09-02 11:27:22 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (265b608c0e9e677c38d8451a931b3d36)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:27:22 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:27:45 [org.testing.utilities.LogCapture] (main:) [TC3] Page title verification passed. Actual title: YouTube
+2024-09-02 11:27:45 [org.testing.utilities.LogCapture] (main:) [TC3] Test Case 3 --------------------------------passed Successfully
+2024-09-02 11:27:56 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (1cc91c3ae0445a4ea4c3feca95e3e72e)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:27:56 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:28:18 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
+2024-09-02 11:28:24 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully
+2024-09-02 11:28:33 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (c15a3fa3b2bd69ff7314b211cc18683a)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:28:33 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:29:14 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (8f5e19e86cd5241f4894575c0ae26b18)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:29:14 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:30:13 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (95bad7fda72594fb0f536069bdd017d5)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:30:13 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:30:48 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (148d67fe9b2480860dc1098f5183c6c5)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:30:48 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
