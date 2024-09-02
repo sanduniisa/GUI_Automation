@@ -34,3 +34,115 @@
 2024-09-02 10:17:46 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
 2024-09-02 10:18:08 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
 2024-09-02 10:18:14 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully
+2024-09-02 11:00:41 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (7951598899ce2bdaaf0dd4c5d958170d)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:00:41 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:00:46 [org.testing.utilities.LogCapture] (main:) [TC1] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7951598899ce2bdaaf0dd4c5d958170d, sendKeysToElement {id=f.5FDC99B7066F493F6DCAF6CE3DF51227.d.4BB668C1C9ABED3D49AC6FF9A6D8AE0F.e.17, value=[Ljava.lang.CharSequence;@68be8808}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59156/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7951598899ce2bdaaf0dd4c5d958170d)] -> xpath: //input[@type='password']]
+Session ID: 7951598899ce2bdaaf0dd4c5d958170d
+2024-09-02 11:00:46 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7951598899ce2bdaaf0dd4c5d958170d, sendKeysToElement {id=f.5FDC99B7066F493F6DCAF6CE3DF51227.d.4BB668C1C9ABED3D49AC6FF9A6D8AE0F.e.17, value=[Ljava.lang.CharSequence;@68be8808}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59156/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7951598899ce2bdaaf0dd4c5d958170d)] -> xpath: //input[@type='password']]
+Session ID: 7951598899ce2bdaaf0dd4c5d958170d
+2024-09-02 11:01:00 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (b4b7cd69c6b864d104bca1aea52bce93)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:01:00 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:01:05 [org.testing.utilities.LogCapture] (main:) [TC2] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4b7cd69c6b864d104bca1aea52bce93, sendKeysToElement {id=f.3F25AFD8456718D4A0ADC590FE484550.d.F30B8ABB0502ABB30FF9374931B45982.e.17, value=[Ljava.lang.CharSequence;@2ccca26f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59191/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b4b7cd69c6b864d104bca1aea52bce93)] -> xpath: //input[@type='password']]
+Session ID: b4b7cd69c6b864d104bca1aea52bce93
+2024-09-02 11:01:05 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4b7cd69c6b864d104bca1aea52bce93, sendKeysToElement {id=f.3F25AFD8456718D4A0ADC590FE484550.d.F30B8ABB0502ABB30FF9374931B45982.e.17, value=[Ljava.lang.CharSequence;@2ccca26f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59191/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b4b7cd69c6b864d104bca1aea52bce93)] -> xpath: //input[@type='password']]
+Session ID: b4b7cd69c6b864d104bca1aea52bce93
+2024-09-02 11:02:29 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (f35086813ad2f30c5726c6de2bff5393)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:02:29 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:02:35 [org.testing.utilities.LogCapture] (main:) [TC1] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f35086813ad2f30c5726c6de2bff5393, sendKeysToElement {id=f.59C0FC4D4AF18FBB8281FAA83DE127F0.d.7E9248689E36EA30649B418EF7F324DF.e.21, value=[Ljava.lang.CharSequence;@4052274f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59249/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (f35086813ad2f30c5726c6de2bff5393)] -> xpath: //input[@type='password']]
+Session ID: f35086813ad2f30c5726c6de2bff5393
+2024-09-02 11:02:35 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f35086813ad2f30c5726c6de2bff5393, sendKeysToElement {id=f.59C0FC4D4AF18FBB8281FAA83DE127F0.d.7E9248689E36EA30649B418EF7F324DF.e.21, value=[Ljava.lang.CharSequence;@4052274f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59249/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (f35086813ad2f30c5726c6de2bff5393)] -> xpath: //input[@type='password']]
+Session ID: f35086813ad2f30c5726c6de2bff5393
+2024-09-02 11:02:47 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (53ab09ef98906f5b93f2f710e2513191)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:02:47 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:02:52 [org.testing.utilities.LogCapture] (main:) [TC2] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53ab09ef98906f5b93f2f710e2513191, sendKeysToElement {id=f.541731B603AC388843A1EC1377D9AA36.d.AC512D2FA7A7100C47146200A61B910F.e.17, value=[Ljava.lang.CharSequence;@18cc679e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59285/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (53ab09ef98906f5b93f2f710e2513191)] -> xpath: //input[@type='password']]
+Session ID: 53ab09ef98906f5b93f2f710e2513191
+2024-09-02 11:02:52 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53ab09ef98906f5b93f2f710e2513191, sendKeysToElement {id=f.541731B603AC388843A1EC1377D9AA36.d.AC512D2FA7A7100C47146200A61B910F.e.17, value=[Ljava.lang.CharSequence;@18cc679e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59285/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (53ab09ef98906f5b93f2f710e2513191)] -> xpath: //input[@type='password']]
+Session ID: 53ab09ef98906f5b93f2f710e2513191
+2024-09-02 11:03:02 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (749914dc63a8ee080dd779ca1d028c8b)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:03:02 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:03:07 [org.testing.utilities.LogCapture] (main:) [TC3] Reason for failure : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [749914dc63a8ee080dd779ca1d028c8b, sendKeysToElement {id=f.BDF87FBDED64ACE291D88114956C5183.d.8509B9BCBDA14ED0B48B084DEEDB5E5B.e.17, value=[Ljava.lang.CharSequence;@1c807b1d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59320/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (749914dc63a8ee080dd779ca1d028c8b)] -> xpath: //input[@type='password']]
+Session ID: 749914dc63a8ee080dd779ca1d028c8b
+2024-09-02 11:03:07 [org.testing.utilities.LogCapture] (main:) [TC3] Test Case 3 failed due to : element not interactable
+  (Session info: chrome=128.0.6613.86)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [749914dc63a8ee080dd779ca1d028c8b, sendKeysToElement {id=f.BDF87FBDED64ACE291D88114956C5183.d.8509B9BCBDA14ED0B48B084DEEDB5E5B.e.17, value=[Ljava.lang.CharSequence;@1c807b1d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59320/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (749914dc63a8ee080dd779ca1d028c8b)] -> xpath: //input[@type='password']]
+Session ID: 749914dc63a8ee080dd779ca1d028c8b
+2024-09-02 11:03:18 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (e6fb4fd2dc26aa880a03ed0c243f06a2)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:03:18 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:03:40 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
+2024-09-02 11:03:47 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully
+2024-09-02 11:03:57 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (aa8ac9f613d1c666cd396bd28763c49c)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:03:57 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:04:38 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (837eb65cf02b5c35a868ac77140eb3bb)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:04:38 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:05:15 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (48210cda25a653f3d10a0cd9f6729518)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:05:15 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-02 11:05:47 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (f975e7d7e11b8c359e8f495b881079f6)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-02 11:05:47 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in

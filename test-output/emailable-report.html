@@ -29,24 +29,67 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Command line test 0c992721-cd79-4f65-ad4d-bea5e2b9a5e7</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">136.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">233.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">Command line test 0c992721-cd79-4f65-ad4d-bea5e2b9a5e7 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">org.testing.testScripts.TC3<td><a href="#m1"><b>testcase3</b>  </a></td><td class="numi">1</td><td class="numi">24837</td></tr>
-<tr class="passedeven"><td rowspan="1">org.testing.testScripts.TC1<td><a href="#m2"><b>testcase1</b>  </a></td><td class="numi">1</td><td class="numi">26167</td></tr>
-<tr class="passedodd"><td rowspan="1">org.testing.testScripts.TC4<td><a href="#m3"><b>testcase4</b>  </a></td><td class="numi">1</td><td class="numi">30900</td></tr>
-<tr class="passedeven"><td rowspan="1">org.testing.testScripts.TC2<td><a href="#m4"><b>testcase2</b>  </a></td><td class="numi">1</td><td class="numi">24114</td></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">org.testing.testScripts.TC6<td><a href="#m1"><b>testcase6</b>  </a></td><td class="numi">1</td><td class="numi">30299</td></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">org.testing.testScripts.TC1<td><a href="#m2"><b>testcase1</b>  </a></td><td class="numi">1</td><td class="numi">8356</td></tr>
+<tr class="passedeven"><td rowspan="1">org.testing.testScripts.TC3<td><a href="#m3"><b>testcase3</b>  </a></td><td class="numi">1</td><td class="numi">7746</td></tr>
+<tr class="passedodd"><td rowspan="1">org.testing.testScripts.TC5<td><a href="#m4"><b>testcase5</b>  </a></td><td class="numi">1</td><td class="numi">33507</td></tr>
+<tr class="passedeven"><td rowspan="1">org.testing.testScripts.TC2<td><a href="#m5"><b>testcase2</b>  </a></td><td class="numi">1</td><td class="numi">7872</td></tr>
+<tr class="passedodd"><td rowspan="1">org.testing.testScripts.TC4<td><a href="#m6"><b>testcase4</b>  </a></td><td class="numi">1</td><td class="numi">30531</td></tr>
+<tr class="passedeven"><td rowspan="1">org.testing.testScripts.TC7<td><a href="#m7"><b>testcase7</b>  </a></td><td class="numi">1</td><td class="numi">25197</td></tr>
+<tr class="passedodd"><td rowspan="1">org.testing.testScripts.TC8<td><a href="#m8"><b>testcase8</b>  </a></td><td class="numi">1</td><td class="numi">27841</td></tr>
 </table>
-<h1>Command line test 0c992721-cd79-4f65-ad4d-bea5e2b9a5e7</h1>
-<a id="m1"></a><h2>org.testing.testScripts.TC3:testcase3</h2>
+<h1>Test</h1>
+<a id="m1"></a><h2>org.testing.testScripts.TC6:testcase6</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//yt-formatted-string[text()=&apos;Add a comment...&apos;]&quot;}
+  (Session info: chrome=128.0.6613.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [837eb65cf02b5c35a868ac77140eb3bb, findElement {using=xpath, value=//yt-formatted-string[text()=&apos;Add a comment...&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59465/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 837eb65cf02b5c35a868ac77140eb3bb</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+<br/>at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+<br/>at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+<br/>at org.testing.Pages.VideoPage.addComment(VideoPage.java:46)
+<br/>at org.testing.testScripts.TC6.testcase6(TC6.java:25)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <a id="m2"></a><h2>org.testing.testScripts.TC1:testcase1</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>org.testing.testScripts.TC4:testcase4</h2>
+<a id="m3"></a><h2>org.testing.testScripts.TC3:testcase3</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m4"></a><h2>org.testing.testScripts.TC2:testcase2</h2>
+<a id="m4"></a><h2>org.testing.testScripts.TC5:testcase5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>org.testing.testScripts.TC2:testcase2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>org.testing.testScripts.TC4:testcase4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>org.testing.testScripts.TC7:testcase7</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>org.testing.testScripts.TC8:testcase8</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
