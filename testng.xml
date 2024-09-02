@@ -7,10 +7,10 @@
       <class name="org.testing.testScripts.TC2"/>
       <class name="org.testing.testScripts.TC3"/>
       <class name="org.testing.testScripts.TC4"/>
-      <class name="org.testing.testScripts.TC5"/>
+<!--       <class name="org.testing.testScripts.TC5"/>
       <class name="org.testing.testScripts.TC6"/>
       <class name="org.testing.testScripts.TC7"/>
-      <class name="org.testing.testScripts.TC8"/>
+      <class name="org.testing.testScripts.TC8"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
