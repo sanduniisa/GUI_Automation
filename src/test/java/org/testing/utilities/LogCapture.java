@@ -72,7 +72,7 @@ public class LogCapture {
 	}
 
 	public static void clearLog() {
-		File logFile = new File("/GUIAutomation/Application.Log");
+		File logFile = new File("../GUIAutomation/Application.Log");
 		if (logFile.exists()) {
 			logFile.delete();
 		}
