@@ -77,7 +77,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
 				</plugin>
-				<plugin>
+				<!--<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
@@ -85,7 +85,7 @@
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
-				</plugin>
+				</plugin>-->
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
@@ -114,13 +114,17 @@
 					<version>3.0.0</version>
 					<executions>
 						<execution>
+							<phase>test</phase>
 							<goals>
 								<goal>java</goal>
 							</goals>
-							<phase>test</phase>
 							<configuration>
 								<mainClass>org.testing.trigger.runner</mainClass>
 								<includePluginDependencies>true</includePluginDependencies>
+								<arguments>
+									<!-- Pass arguments to the main method here
+									if needed -->
+								</arguments>
 							</configuration>
 						</execution>
 					</executions>
