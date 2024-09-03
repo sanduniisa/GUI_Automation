@@ -108,7 +108,7 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
-				<plugin>
+				<!--<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>exec-maven-plugin</artifactId>
 					<version>3.0.0</version>
@@ -122,13 +122,13 @@
 								<mainClass>org.testing.trigger.runner</mainClass>
 								<includePluginDependencies>true</includePluginDependencies>
 								<arguments>
-									<!-- Pass arguments to the main method here
-									if needed -->
+									 Pass arguments to the main method here
+									if needed 
 								</arguments>
 							</configuration>
 						</execution>
 					</executions>
-				</plugin>
+				</plugin>-->
 			</plugins>
 		</pluginManagement>
 	</build>
