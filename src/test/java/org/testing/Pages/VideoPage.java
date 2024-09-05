@@ -18,7 +18,7 @@ public class VideoPage {
 	}
 
 	public void videoPlay() throws InterruptedException {
-
+		Thread.sleep(4000);
 		WebElement clickvdoElement = driver.findElement(By.xpath(pr.getProperty("clickvdoElement")));
 		clickvdoElement.click();
 		Thread.sleep(3000);
@@ -26,12 +26,14 @@ public class VideoPage {
 	}
 
 	public void clickLikeButton() throws InterruptedException {
+		Thread.sleep(4000);
 		WebElement likeButtonElement = driver.findElement(By.xpath(pr.getProperty("likeButtonElement")));
 		likeButtonElement.click();
 		Thread.sleep(4000);
 	}
 
 	public void channelSubscription() throws InterruptedException {
+		Thread.sleep(4000);
 		WebElement channelsubscriptionElement = driver
 				.findElement(By.xpath(pr.getProperty("channelsubscriptionElement")));
 		channelsubscriptionElement.click();

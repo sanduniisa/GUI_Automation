@@ -17,22 +17,24 @@ public class HomePage {
 	}
 
 	public void trendingClick() throws InterruptedException {
-
+		Thread.sleep(5000);
 		WebElement trendingElement = driver.findElement(By.xpath(pr.getProperty("trendingElement")));
 		trendingElement.click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 
 	public void signOut() throws InterruptedException {
+		Thread.sleep(5000);
 		WebElement avatarWebElement = driver.findElement(By.xpath(pr.getProperty("avatarWebElement")));
 		avatarWebElement.click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		WebElement signout = driver.findElement(By.xpath(pr.getProperty("signout")));
 		signout.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 
 	public void historyClick() throws InterruptedException {
+		Thread.sleep(5000);
 		WebElement historyElement = driver.findElement(By.xpath(pr.getProperty("historyElement")));
 		historyElement.click();
 		Thread.sleep(2000);
@@ -40,6 +42,7 @@ public class HomePage {
 	}
 
 	public void subscriptionClick() throws InterruptedException {
+		Thread.sleep(5000);
 		WebElement subscriptionsElement = driver.findElement(By.xpath(pr.getProperty("subscriptionsElement")));
 		subscriptionsElement.click();
 		Thread.sleep(3000);
@@ -50,7 +53,7 @@ public class HomePage {
 		Thread.sleep(3000);
 		WebElement searchElement = driver.findElement(By.xpath(pr.getProperty("searchElement")));
 		searchElement.sendKeys(search);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 
 		WebElement searchvdoElement = driver.findElement(By.xpath(pr.getProperty("searchvdoElement")));
 		searchvdoElement.click();
@@ -59,6 +62,7 @@ public class HomePage {
 	}
 
 	public void watchLaterClick() throws InterruptedException {
+		Thread.sleep(3000);
 		WebElement watchLaterElement = driver.findElement(By.xpath(pr.getProperty("watchLaterElement")));
 		watchLaterElement.click();
 		Thread.sleep(3000);
@@ -66,6 +70,7 @@ public class HomePage {
 	}
 
 	public void podcastsClick() throws InterruptedException {
+		Thread.sleep(3000);
 		WebElement podcastsElement = driver.findElement(By.xpath(pr.getProperty("podcastsElement")));
 		podcastsElement.click();
 		Thread.sleep(3000);

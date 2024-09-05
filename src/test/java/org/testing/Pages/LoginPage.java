@@ -38,25 +38,25 @@ public class LoginPage {
 		// but in the signIn method for locating the elements we need driver
 		// to fetch the locator value we need the object.properties file
 		// test cases getting these things from the base class
-
+		Thread.sleep(4000);
 		WebElement signInElement = driver.findElement(By.xpath(pr.getProperty("signInElement")));
 		Thread.sleep(2000);
 		WebAssertions.elementVisibility(signInElement, "common assertion");
 		WebAssertions.elementTextVerification(signInElement.getText(), "Sign in", "common assertion");
 		signInElement.click();
-
+		Thread.sleep(4000);
 		WebElement emaiElement = driver.findElement(By.xpath(pr.getProperty("emailElement")));
 		emaiElement.sendKeys("myautomationpractise.testing@gmail.com");
 		Thread.sleep(2000);
-
+		Thread.sleep(4000);
 		WebElement nextElement = driver.findElement(By.id(pr.getProperty("nextWebElement")));
 		nextElement.click();
 		Thread.sleep(2000);
-
+		Thread.sleep(4000);
 		WebElement passwordElement = driver.findElement(By.xpath(pr.getProperty("passwordElement")));
 		passwordElement.sendKeys("FourSeason1976%");
 		Thread.sleep(2000);
-
+		Thread.sleep(4000);
 		WebElement passwordNextElement = driver.findElement(By.id(pr.getProperty("passwordNextElement")));
 		passwordNextElement.click();
 		Thread.sleep(3000);
