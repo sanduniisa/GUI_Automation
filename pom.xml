@@ -84,6 +84,9 @@
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
+						<includes>
+                    					<include>/GUIAutomation/src/test/java/org/testing/trigger/runner.java</include>
+                		                </includes>
 					</configuration>
 				</plugin>
 				<plugin>
