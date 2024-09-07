@@ -81,12 +81,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
-<!-- 						<suiteXmlFiles>
+						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
-						</suiteXmlFiles> -->
-						<includes>
-                    					<include>/GUIAutomation/src/test/java/org/testing/trigger/runner.java</include>
-               				        </includes>
+						</suiteXmlFiles>
 					</configuration>
 				</plugin>
 				<plugin>
