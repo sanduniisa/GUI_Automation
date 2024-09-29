@@ -5,6 +5,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import javax.swing.JScrollBar;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +20,7 @@ public class Base {
 	
 	public ChromeDriver driver;
 	public Properties pr ;
+	public JavascriptExecutor js;
 	   
 	@BeforeSuite
     public void setupSuite() {
@@ -36,6 +40,9 @@ public class Base {
 		Window w=op.window();
 		w.maximize();
 		//LogCapture.clearLog();
+		// Initialize the JavascriptExecutor
+		js = (JavascriptExecutor) driver;
+	
     }
     
     @AfterMethod

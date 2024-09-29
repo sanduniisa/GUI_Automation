@@ -1,10 +1,47 @@
-2024-09-02 12:26:19 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (621feddc8c25a0d16bd2adcfbad757bd)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
-2024-09-02 12:26:19 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
-2024-09-02 12:26:33 [org.testing.utilities.LogCapture] (main:) [TC1] Page title verification passed. Actual title: YouTube
-2024-09-02 12:26:33 [org.testing.utilities.LogCapture] (main:) [TC1] Page URL verification passed. Actual URL: https://www.youtube.com/
-2024-09-02 12:26:33 [org.testing.utilities.LogCapture] (main:) [TC1] logged Successfully
-2024-09-02 12:26:43 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 ------------------------------------passed Successfully
-2024-09-02 12:26:52 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (6d9aa709b32dcaf18e0f54848d7e5d5c)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
-2024-09-02 12:26:52 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
-2024-09-02 12:27:14 [org.testing.utilities.LogCapture] (main:) [TC2] Page title verification passed. Actual title: YouTube
-2024-09-02 12:27:14 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 --------------------------passed Successfully
+2024-09-29 08:18:31 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (330d9a33d4a642bf73ab6e7cdbe14d68)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:18:31 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:19:02 [org.testing.utilities.LogCapture] (main:) [TC1] Page title verification passed. Actual title: YouTube
+2024-09-29 08:19:02 [org.testing.utilities.LogCapture] (main:) [TC1] Page URL verification passed. Actual URL: https://www.youtube.com/
+2024-09-29 08:19:03 [org.testing.utilities.LogCapture] (main:) [TC1] logged Successfully
+2024-09-29 08:19:27 [org.testing.utilities.LogCapture] (main:) [TC1] Test Case 1 ------------------------------------passed Successfully
+2024-09-29 08:19:41 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (cdac59e8557f75bc9e18f56e2adb0582)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:19:41 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:20:30 [org.testing.utilities.LogCapture] (main:) [TC2] Page title verification passed. Actual title: YouTube
+2024-09-29 08:20:30 [org.testing.utilities.LogCapture] (main:) [TC2] Test Case 2 --------------------------passed Successfully
+2024-09-29 08:20:43 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (4cb304a3cf7d25e8410dd8591c7e55ee)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:20:43 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:21:33 [org.testing.utilities.LogCapture] (main:) [TC3] Page title verification passed. Actual title: YouTube
+2024-09-29 08:21:33 [org.testing.utilities.LogCapture] (main:) [TC3] Test Case 3 --------------------------------passed Successfully
+2024-09-29 08:21:48 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (4c231c38671d7142accc837da4f757e9)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:21:48 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:22:31 [org.testing.utilities.LogCapture] (main:) [TC4] Page title verification passed. Actual title: Twinkle Twinkle Little Star | Nursery Rhymes for Kids | Super Simple Songs - YouTube
+2024-09-29 08:22:45 [org.testing.utilities.LogCapture] (main:) [TC4] Test Case 4 -----------------------------------passed Successfully
+2024-09-29 08:22:58 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (cde3f03da7db7d5acb24fee6a6230a49)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:22:58 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:24:03 [org.testing.utilities.LogCapture] (main:) [TC5] Test Case 5 ------------------------------------passed Successfully
+2024-09-29 08:24:17 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (02b348bd280d24f60f8eebb37cb2c32b)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:24:17 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:25:00 [org.testing.utilities.LogCapture] (main:) [TC6] Reason for failure : no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-label='Add a comment...']"}
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02b348bd280d24f60f8eebb37cb2c32b, findElement {using=xpath, value=//div[@aria-label='Add a comment...']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02b348bd280d24f60f8eebb37cb2c32b
+2024-09-29 08:25:00 [org.testing.utilities.LogCapture] (main:) [TC6] Test Case 6 failed due to : no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-label='Add a comment...']"}
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02b348bd280d24f60f8eebb37cb2c32b, findElement {using=xpath, value=//div[@aria-label='Add a comment...']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/4j/jxc186_55xx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02b348bd280d24f60f8eebb37cb2c32b
+2024-09-29 08:25:13 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (8a8ebab290f9de9f2bda6ae1c5e60229)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:25:13 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:26:03 [org.testing.utilities.LogCapture] (main:) [TC7] Test Case 7 ------------------------------------passed Successfully
+2024-09-29 08:26:17 [org.testing.utilities.LogCapture] (main:) [common assertion] [[ChromeDriver: chrome on mac (ff83abe3feabc331d65aea4579d8ee01)] -> xpath: //a[contains(@aria-label,'Sign in')]]Element is visible
+2024-09-29 08:26:17 [org.testing.utilities.LogCapture] (main:) [common assertion] Text verification passed. Actual text: Sign in
+2024-09-29 08:27:07 [org.testing.utilities.LogCapture] (main:) [TC8] Test Case 8 ------------------------------------passed Successfully

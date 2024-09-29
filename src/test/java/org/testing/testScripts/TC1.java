@@ -2,6 +2,10 @@ package org.testing.testScripts;
 
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 import java.io.IOException;
 import java.util.Properties;
 
@@ -12,8 +16,10 @@ import org.testing.Pages.HomePage;
 import org.testing.Pages.LoginPage;
 import org.testing.assertions.WebAssertions;
 import org.testing.utilities.LogCapture;
+import org.testing.utilities.ReportHandling;
 import org.testing.utilities.ScreenshotCapture;
 import org.testng.annotations.Test;
+
 
 public class TC1 extends Base {
 
@@ -21,6 +27,9 @@ public class TC1 extends Base {
 
 	@Test
 	public void testcase1() throws InterruptedException, IOException {
+		
+		ExtentReports extentReports = ReportHandling.reports();
+		ExtentTest extentTest = extentReports.startTest("testCase1");
 
 		try {
 
@@ -35,11 +44,6 @@ public class TC1 extends Base {
 
 			ScreenshotCapture.takeScreenshot(driver, "/Users/sanduniisa/Documents/TestsScreenshots/tc1_login.png");
 			LogCapture.takeLog("TC1", "logged Successfully");
-			
-			
-//			WebElement SignInElement = driver.findElement(By.xpath(pr.getProperty("signInElement"))); 
-//			WebAssertions.elementTextVerification(SignInElement.getText(), "Sign in", "TC1");
-//			WebAssertions.elementVisibility(SignInElement, "TC1");
 
 			HomePage homePage = new HomePage(driver, pr);
 
@@ -47,6 +51,9 @@ public class TC1 extends Base {
 			homePage.signOut();
 			LogCapture.takeLog("TC1", "Test Case 1 ------------------------------------passed Successfully");
 			ScreenshotCapture.takeScreenshot(driver, "/Users/sanduniisa/Documents/TestsScreenshots/testcase1.png");
+			extentTest.log(LogStatus.PASS, "testcase1 Passed");
+			extentReports.endTest(extentTest);
+			extentReports.flush();
 
 		} catch (Exception e) {
 
@@ -54,6 +61,9 @@ public class TC1 extends Base {
 			LogCapture.takeLog("TC1", "Test Case 1 failed due to : " + e.getMessage());
 
 			ScreenshotCapture.takeScreenshot(driver, "/Users/sanduniisa/Documents/TestsScreenshots/tc1_login.png");
+			extentTest.log(LogStatus.FAIL, "testcase1 Failed");
+			extentReports.endTest(extentTest);
+			extentReports.flush();
 
 		}
 

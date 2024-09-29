@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite1]">
-  <test name="Command line test b18e9719-ca39-47c4-9626-6479ee34521c(failed)" preserve-order="true">
+  <test name="Command line test 0f170096-126d-4b54-911c-0619c541b0d4(failed)" preserve-order="true">
     <classes>
       <class name="org.testing.testScripts.TC4">
         <methods>
@@ -11,20 +11,17 @@
       </class>
       <class name="org.testing.testScripts.TC1">
         <methods>
-          <include name="closure"/>
-          <include name="init"/>
+          <include name="testcase1"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC2">
+        <methods>
+          <include name="testcase2"/>
         </methods>
       </class>
       <class name="org.testing.testScripts.TC3">
         <methods>
           <include name="testcase3"/>
-          <include name="init"/>
-        </methods>
-      </class>
-      <class name="org.testing.testScripts.TC2">
-        <methods>
-          <include name="closure"/>
-          <include name="init"/>
         </methods>
       </class>
     </classes>

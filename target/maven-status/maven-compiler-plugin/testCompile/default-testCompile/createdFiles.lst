@@ -1,3 +1,4 @@
+org/testing/utilities/ReportHandling.class
 org/testing/testScripts/TC1.class
 org/testing/assertions/WebAssertions.class
 org/testing/testScripts/TC7.class

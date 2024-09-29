@@ -1,11 +1,16 @@
 package org.testing.Pages;
 
+import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VideoPage {
 
@@ -42,32 +47,25 @@ public class VideoPage {
 	}
 
 	public void addComment() throws InterruptedException {
-		// Scroll down to the comment section
-					Thread.sleep(3000);
-					Actions actions = new Actions(driver);
-					WebElement addComment = driver.findElement(By.xpath(pr.getProperty("addComment")));
-					actions.moveToElement(addComment).perform();
-					Thread.sleep(3000);
-				
-//					// Focus on the comment box and click //iframe
-//			        WebElement commentBox = driver.findElement(By.xpath("//tp-yt-paper-input-container[@id='input-container']"));
-//			        commentBox.click();
-//			        Thread.sleep(3000);
-			        
-			     // Ensure the correct XPath
-					Thread.sleep(3000);
-			        WebElement commentBox =  driver.findElement(By.cssSelector(pr.getProperty("commentBox")));
-			        commentBox.click();
-			        Thread.sleep(3000);
+		// Scroll to the comment section if necessary
+        WebElement commentSection = driver.findElement(By.id("comments"));
+        driver.executeScript("arguments[0].scrollIntoView(true);", commentSection);
+    
+        // Add a comment
+        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        //WebElement commentBox = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("contenteditable-textarea")));
+        
+        driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
+        WebElement commentBox = driver.findElement(By.xpath("//div[@aria-label='Add a comment...']"));
+        commentBox.click();
+        commentBox.sendKeys("This is a test comment!");
+        driver.switchTo().defaultContent();
 
-			        WebElement commentInput = driver.findElement(By.xpath(pr.getProperty("commentInput")));
-			        commentInput.sendKeys("Perfect");
-			        Thread.sleep(3000);
-					
-					WebElement clickCommentElement =  driver.findElement(By.xpath(pr.getProperty("clickCommentElement")));
-					clickCommentElement.click();
-					Thread.sleep(3000);
-		
+        // Submit the comment (You might need to handle the submit button depending on the page)
+        driver.findElement(By.id("submit-button")).click(); // Update selector for the submit button
+
+
+
 	}
 
 }
