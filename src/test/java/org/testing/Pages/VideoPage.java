@@ -47,24 +47,17 @@ public class VideoPage {
 	}
 
 	public void addComment() throws InterruptedException {
-		// Scroll to the comment section if necessary
-        WebElement commentSection = driver.findElement(By.id("comments"));
-        driver.executeScript("arguments[0].scrollIntoView(true);", commentSection);
-    
-        // Add a comment
-        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        //WebElement commentBox = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("contenteditable-textarea")));
-        
-        driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
-        WebElement commentBox = driver.findElement(By.xpath("//div[@aria-label='Add a comment...']"));
-        commentBox.click();
-        commentBox.sendKeys("This is a test comment!");
-        driver.switchTo().defaultContent();
+		Thread.sleep(1000);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,500)", "");
+		
+		Thread.sleep(1000);
+		driver.findElement(By.cssSelector(pr.getProperty("commentsinput"))).click();
+		Thread.sleep(1000);
+		driver.findElement(By.cssSelector(pr.getProperty("comments"))).sendKeys("Great Content");
 
-        // Submit the comment (You might need to handle the submit button depending on the page)
-        driver.findElement(By.id("submit-button")).click(); // Update selector for the submit button
-
-
+		Thread.sleep(2000);
+		driver.findElement(By.xpath(pr.getProperty("commentbtn"))).click();
 
 	}
 
